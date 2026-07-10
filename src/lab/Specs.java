@@ -16,6 +16,14 @@ package lab;
  */
 public class Specs {
 
+    /**
+     * ฟังก์ชันนี้ทำการค้นหาตำแหน่งแรกที่เจอค่า key ในอารเย์ arr
+     * @param arr อาเรย์ที่ถูกค้นหา
+     * @param key ค่าที่ค้นหา
+     * @return ตำแหน่งที่เจอ ถ้าไม่เจอส่ง  -1
+     * @throws IllegalArgumentException ถ้า arr เป็น null
+     */
+
     // TODO ข้อ 4: เขียน JavaDoc ให้เมธอดนี้
     public static int firstIndexOf(int[] arr, int key) {
         if (arr == null) throw new IllegalArgumentException("arr must not be null");
